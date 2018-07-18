@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.danger.example.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/text_style_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="安卓流行Api示例"
+                 />
+            <Button
+                style="@style/text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RxJava"
+                />
+            <Button
+                style="@style/text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Retorfit"
+                />
+            <Button
+                style="@style/text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Materal Design"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
